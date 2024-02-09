@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.to-do-list{
+    width: 400px;
+    min-height: 400px;
+    background-color: rgb(247, 124, 124);
+    border-radius: 12px;
+}
+
+.content{
+    margin-top: 1rem;
+}
+
+.heading{
+    color: white;
+    font-size:2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.list-heading{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.heding-line{
+    width: 300px;
+    color: white;
+    font-size:1em;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.add-to-do{
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+.btn{
+    margin-left: 20px;
+    color: white;
+    padding: 10px 10px;
+    font-weight: 500px;
+    background-color: rgb(235, 82, 82);
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: rgb(235, 82, 82);
+    font-weight: 400px;
+}
+
+.input{
+    outline: none;
+    padding: 10px 10px;
+}
+
+.list-item{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    box-shadow: 8px 8px 8px rgb(240, 101, 101);
+    background-color: rgb(245, 116, 116);
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    margin: 0 auto;
+    border: white;
+}
+
+.list{
+    position: relative;
+    top: 2%;
+}
+
+.icons{
+    color: white;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+.edit{
+    cursor: pointer;
+}
+
+.delete{
+    margin-left: 15px;
+    cursor: pointer;
+}
